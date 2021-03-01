@@ -33,11 +33,11 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-Login_Feature:
-<img src='https://github.com/Jamswhat2/FlixsterApp/blob/master/SimpleTweetApp_part1.login_feature.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-Timeline_Feature:
-<img src='https://github.com/Jamswhat2/FlixsterApp/blob/master/SimpleTweetApp_part1.timelineActivityFeatures.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<p float="left">
+  <img src='https://github.com/Jamswhat2/SimpleTweetApp/blob/master/SimpleTweetApp_part1.login_feature.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+  <img src='https://github.com/Jamswhat2/SimpleTweetApp/blob/master/SimpleTweetApp_part1.timelineActivityFeatures.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+</p>
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
