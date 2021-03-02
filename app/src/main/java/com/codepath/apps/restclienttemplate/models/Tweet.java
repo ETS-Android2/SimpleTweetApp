@@ -1,15 +1,18 @@
 package com.codepath.apps.restclienttemplate.models;
 
+import com.codepath.apps.restclienttemplate.TimeFormatter;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Tweet {
     public String body;
-    public String createdAt;
+    public String createdAt;    //need to format for timestamp
     public User user;
     public long id;
 
@@ -27,5 +30,9 @@ public class Tweet {
             tweets.add(fromJson(jsonArray.getJSONObject(i)));
         }
         return tweets;
+    }
+
+    public String getFormattedTimestamp() {
+        return TimeFormatter.getTimeDifference(createdAt);
     }
 }

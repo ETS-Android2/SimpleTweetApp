@@ -37,4 +37,12 @@
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@id/ivProfileImage"
         tools:text="This is my sample tweet!" />
+
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        tools:text="sample_time 12:12"
+        tools:textSize="12.5sp" />
 </RelativeLayout>
